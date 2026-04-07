@@ -21,22 +21,21 @@ body {
   background-color: orange;
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 1fr 5fr;
   min-height: 100vh;
 }
 
 .header {
   background-color: lightblue;
+  grid-column: 2;
+  background-color: yellowgreen;
 }
 
 .sidebar {
-  background-color: yellowgreen;
+  background-color: rgb(38, 177, 223);
+  grid-row: 1/4;
 }
 
 .main-content {
   background-color: orangered;
-}
-
-.footer {
-  background-color: lightsalmon;
 }
