@@ -11,6 +11,32 @@ html {
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 1.6;
+  min-height: 100vh;
+}
+
+.dashboard-container {
+  background-color: orange;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 4fr;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: lightblue;
+}
+
+.sidebar {
+  background-color: yellowgreen;
+}
+
+.main-content {
+  background-color: orangered;
+}
+
+.footer {
+  background-color: lightsalmon;
 }
