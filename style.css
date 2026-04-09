@@ -18,19 +18,59 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 300px 1000px;
+  grid-template-columns: 160px 1000px;
 }
 
+/* HEADER */
 .header {
   background-color: orangered;
+  grid-column: 2;
 }
 
+/* SIDEBAR */
 .sidebar {
   background-color: lightgreen;
   grid-column: 1/2;
   grid-row: 1/3;
+  display: grid;
+  gap: 10px;
+  align-items: start;
 }
 
+.sidebar-header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.sidebar-header__logo {
+  justify-self: end;
+  align-self: end;
+}
+
+.sidebar-header__text {
+}
+
+.sidebar-main-menu {
+}
+
+.sidebar-menu {
+}
+
+.sidebar-menu__icon {
+}
+
+.sidebar-menu__link:link,
+.sidebar-menu__link:visited {
+  text-decoration: none;
+}
+
+.sidebar-menu__link:hover,
+.sidebar-menu__link:active {
+}
+
+/* MAIN CONTENT */
 .main-content {
   background-color: cyan;
+  grid-column: 2;
+  grid-row: 2;
 }
