@@ -30,21 +30,23 @@ body {
 /* SIDEBAR */
 .sidebar {
   background-color: lightgreen;
-  padding-bottom: 300px;
+  padding-bottom: 400px;
   padding-left: 20px;
   grid-column: 1/2;
   grid-row: 1/3;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 20px;
 }
 
 .sidebar-header {
 }
 .sidebar-header__logo {
+  display: inline-block;
 }
 
 .sidebar-header__text {
+  display: inline-block;
 }
 
 .sidebar-main-menu {
@@ -54,6 +56,7 @@ body {
 }
 
 .sidebar-menu__icon {
+  display: inline-block;
 }
 
 .sidebar-menu__link:link,
