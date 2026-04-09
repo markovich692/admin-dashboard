@@ -29,7 +29,44 @@ body {
   grid-row: 1/2;
   display: grid;
   grid-template-columns: 650px 350px;
-  grid-template-rows: ;
+  grid-template-rows: 50px 100px;
+}
+
+.search-menu__icon {
+}
+
+.header__icon {
+}
+.search-menu__bar {
+}
+
+.notification-menu {
+}
+
+.notification-menu__icon {
+}
+
+.notification-menu__image {
+}
+.notification-menu__username {
+}
+
+.welcome-menu {
+}
+
+.user-profile-image {
+}
+
+.welcome-menu__text {
+}
+
+.welcome-menu__message {
+}
+
+.welcome-menu__profile-name {
+}
+
+.buttons {
 }
 
 /* SIDEBAR */
