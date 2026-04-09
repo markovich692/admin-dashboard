@@ -27,6 +27,9 @@ body {
   background-color: orangered;
   grid-column: 2/3;
   grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 650px 350px;
+  grid-template-rows: ;
 }
 
 /* SIDEBAR */
