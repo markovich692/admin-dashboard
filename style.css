@@ -14,28 +14,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 1.6;
-  min-height: 100vh;
 }
 
-.dashboard-container {
-  background-color: orange;
+.container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 5fr;
-  min-height: 100vh;
+  grid-template-columns: 300px 1000px;
 }
 
 .header {
-  background-color: lightblue;
-  grid-column: 2;
-  background-color: yellowgreen;
+  background-color: orangered;
 }
 
 .sidebar {
-  background-color: rgb(38, 177, 223);
-  grid-row: 1/4;
+  background-color: lightgreen;
 }
 
 .main-content {
-  background-color: orangered;
+  background-color: cyan;
 }
