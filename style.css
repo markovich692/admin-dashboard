@@ -31,12 +31,14 @@ body {
   grid-template-rows: 75px 75px;
 }
 
+/* HEADER TOP */
 .header-top {
   grid-column: 1/2;
   grid-row: 1/2;
   display: grid;
   grid-auto-flow: column;
   justify-items: space-between;
+  align-items: center;
 }
 
 .search-bar {
@@ -49,6 +51,8 @@ body {
 }
 
 .notification {
+  display: grid;
+  grid-auto-flow: column;
 }
 
 .notification__icon {
@@ -60,13 +64,32 @@ body {
 .notification__profile-name {
 }
 
+/* HEADER BOTTOM */
 .header-bottom {
   grid-column: 1/2;
   grid-row: 2/3;
-  display: grid;
+
   display: grid;
   grid-auto-flow: column;
   justify-items: space-between;
+}
+
+.welcome-user {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 70px 1fr;
+}
+
+.welcome-user__profile-img {
+}
+
+.welcome-user__texts {
+}
+
+.welcome-user__text {
+}
+
+.welcome-user__name {
 }
 
 /* SIDEBAR */
