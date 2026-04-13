@@ -24,7 +24,7 @@ body {
 
 /* HEADER */
 .header {
-  background-color: orangered;
+  /* background-color: orangered; */
   grid-column: 2/3;
   grid-row: 1/2;
   display: grid;
@@ -71,7 +71,6 @@ body {
 
   display: grid;
   grid-auto-flow: column;
-  justify-items: space-between;
 }
 
 .welcome-user {
@@ -94,7 +93,7 @@ body {
 
 /* SIDEBAR */
 .sidebar {
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   padding-bottom: 400px;
   padding-left: 20px;
   grid-column: 1/2;
@@ -135,7 +134,11 @@ body {
 
 /* MAIN CONTENT */
 .main-content {
-  background-color: cyan;
+  background-color: orange;
   grid-column: 2/3;
   grid-row: 2/5;
+
+  display: grid;
+  grid-template-columns: 12px 1fr 4px 1fr 4px 1fr 14px;
+  grid-template-rows: 8px 12px 1fr 1fr 1fr 6px 1fr 1fr 1fr 6px 1fr 1fr 1fr 14px;
 }
