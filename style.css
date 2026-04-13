@@ -62,7 +62,11 @@ body {
 
 .header-bottom {
   grid-column: 1/2;
-  grid-row: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: space-between;
 }
 
 /* SIDEBAR */
