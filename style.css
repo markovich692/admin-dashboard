@@ -28,45 +28,41 @@ body {
   grid-column: 2/3;
   grid-row: 1/2;
   display: grid;
-  grid-template-columns: 650px 350px;
-  grid-template-rows: 50px 100px;
+  grid-template-rows: 75px 75px;
 }
 
-.search-menu__icon {
+.header-top {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: space-between;
 }
 
-.header__icon {
-}
-.search-menu__bar {
+.search-bar {
 }
 
-.notification-menu {
+.search-bar__icon {
 }
 
-.notification-menu__icon {
+#search-bar__user-input {
 }
 
-.notification-menu__image {
-}
-.notification-menu__username {
+.notification {
 }
 
-.welcome-menu {
+.notification__icon {
 }
 
-.user-profile-image {
+.notification__profile-img {
 }
 
-.welcome-menu__text {
+.notification__profile-name {
 }
 
-.welcome-menu__message {
-}
-
-.welcome-menu__profile-name {
-}
-
-.buttons {
+.header-bottom {
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 /* SIDEBAR */
