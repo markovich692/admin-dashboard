@@ -134,6 +134,20 @@ body {
 
 /* MAIN CONTENT */
 .main-content {
+  background-color: lightblue;
+  grid-column: 2/3;
+  grid-row: 2/5;
+}
+
+
+
+
+
+
+
+
+/* 
+.main-content {
   background-color: orange;
   grid-column: 2/3;
   grid-row: 2/5;
@@ -153,6 +167,7 @@ body {
 
 .project {
   justify-self: center;
+  background-color: lightblue;
 }
 
 .project-first {
@@ -190,3 +205,10 @@ body {
   grid-row: 2/3;
   justify-self: start;
 }
+
+.infos {
+  background-color: yellowgreen;
+  grid-column: 6/7;
+  grid-row: 4/9;
+}
+*/
