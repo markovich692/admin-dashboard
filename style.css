@@ -93,7 +93,6 @@ body {
 
 /* SIDEBAR */
 .sidebar {
-  /* background-color: lightgreen; */
   padding-bottom: 400px;
   padding-left: 20px;
   grid-column: 1/2;
@@ -139,10 +138,35 @@ body {
   grid-row: 2/5;
   display: grid;
   grid-template-columns: 4fr 1fr;
+  padding: 10px 12px 18px 12px;
+  column-gap: 8px;
 }
 
 .projects {
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20px 1fr 1fr 1fr;
+  gap: 18px;
+}
+
+.section-title {
+  background-color: blueviolet;
+}
+
+.project-heading {
+  grid-column: 1/3;
+}
+
+.project {
+  background-color: orange;
+  border-radius: 8px;
+}
+
+.project__name {
+}
+
+.project__descripption {
 }
 
 .update-panels {
