@@ -58,6 +58,8 @@ body {
 
 .search-bar__input {
   grid-column: 2/3;
+  border: none;
+  border-radius: 50px;
 }
 
 /* Header notifications */
@@ -101,6 +103,18 @@ body {
 
 /* Header actions */
 .header-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.header-actions__button {
+  background-color: var(--debug-6);
+  border: none;
+  width: 64px;
+  height: 36px;
+  border-radius: 20px;
 }
 
 /* SIDEBAR */
