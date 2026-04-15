@@ -38,20 +38,35 @@ body {
   grid-column: 2/3;
   grid-row: 1/2;
 
-  /* GRID */
+  /* ----------------------------------------- */
 
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
 
+/* Search-bar */
 .search-bar {
 }
+.search-bar__icon {
+}
 
+.search-bar__input {
+}
+
+/* Header notifications */
 .user-notification {
 }
 
-.user-welcome {
+.user-notification__notification-icon {
 }
+
+.user-notification__avatar {
+}
+
+.user-notification__username {
+}
+
+/* Header actions */
 
 .header-actions {
 }
