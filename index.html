@@ -9,196 +9,44 @@
   <body>
     <div class="container">
       <!-- HEADER -->
-      <div class="header">
-        <!-- TOP -->
-        <div class="header-top">
-          <div class="search-bar">
-            <label for="search-bar__user-input">icon</label>
-            <input id="search-bar__user-input" type="text" />
-          </div>
+      <div class="topbar">
+        <!-- Search bar -->
+        <div class="search-bar">
+          <span class="search-bar__icon">icon</span>
+          <input class="search-bar__input" type="text" />
+        </div>
 
-          <div class="notification">
-            <div class="notification__icon">icon</div>
+        <!-- User notification -->
+        <div class="user-notification">
+          <div class="user-notification__notification-icon">icon</div>
 
-            <div class="notification__profile-img">image</div>
+          <div class="user-notification__avatar">image</div>
 
-            <h3 class="notification__profile-name">Morgan Oakley</h3>
+          <span class="user-notification__username">username</span>
+        </div>
+
+        <!-- User welcome -->
+        <div class="user-welcome">
+          <span class="user-welcome__avatar">profile-image</span>
+
+          <div class="user-welcome__texts">
+            <span class="user-welcome__hello">Hi there,</span>
+            <h2 class="user-welcome__username">Marc Diallo (@marcdiallo)</h2>
           </div>
         </div>
 
-        <!-- BOTTOM -->
-
-        <div class="header-bottom">
-          <div class="welcome-user">
-            <div class="welcome-user__profile-img">image</div>
-
-            <div class="welcome-user__texts">
-              <p class="welcome-user__text">Hi there,</p>
-
-              <h2 class="welcome-user__name">Morgan Oakley (@morgan)</h2>
-            </div>
-          </div>
-
-          <div class="buttons">
-            <button>New</button>
-            <button>Upload</button>
-            <button>Share</button>
-          </div>
+        <div class="header-actions">
+          <button class="header-actions__button">New</button>
+          <button class="header-actions__button">Upload</button>
+          <button class="header-actions__button">Share</button>
         </div>
       </div>
 
       <!-- SIDEBAR -->
-      <div class="sidebar">
-        <div class="sidebar-header">
-          <div class="sidebar-header__logo">logo</div>
-          <h2 class="sidebar-header__text">Dashboard</h2>
-        </div>
-
-        <div class="sidebar-main-menu">
-          <div class="sidebar-menu">
-            <div class="sidebar-menu__icon">icon</div>
-            <a class="sidebar-menu__link" href="#">Home</a>
-          </div>
-
-          <div class="sidebar-menu">
-            <div class="sidebar-menu__icon">icon</div>
-            <a class="sidebar-menu__link" href="#">Profile</a>
-          </div>
-
-          <div class="sidebar-menu">
-            <div class="sidebar-menu__icon">icon</div>
-            <a class="sidebar-menu__link" href="#">Messages</a>
-          </div>
-
-          <div class="sidebar-menu">
-            <div class="sidebar-menu__icon">icon</div>
-            <a class="sidebar-menu__link" href="#">History</a>
-          </div>
-
-          <div class="sidebar-menu">
-            <div class="sidebar-menu__icon">icon</div>
-            <a class="sidebar-menu__link" href="#">Tasks</a>
-          </div>
-
-          <div class="sidebar-menu">
-            <div class="sidebar-menu__icon">icon</div>
-            <a class="sidebar-menu__link" href="#">Communities</a>
-          </div>
-        </div>
-
-        <div class="sidebar-secondary-menu">
-          <div class="sidebar-menu">
-            <div class="sidebar-menu__icon">icon</div>
-            <a class="sidebar-menu__link" href="#">Settings</a>
-          </div>
-
-          <div class="sidebar-menu">
-            <div class="sidebar-menu__icon">icon</div>
-            <a class="sidebar-menu__link" href="#">Support</a>
-          </div>
-
-          <div class="sidebar-menu">
-            <div class="sidebar-menu__icon">icon</div>
-            <a class="sidebar-menu__link" href="#">Privacy</a>
-          </div>
-        </div>
-
-        <!-- MAIN MENU -->
-      </div>
+      <div class="sidebar">SIDEBAR</div>
 
       <!-- MAIN CONTENT -->
-      <div class="main-content">
-        <!-- PROJECTS -->
-        <div class="projects">
-          <h4 class="section-title project-heading">Projects</h4>
-
-          <div class="project">
-            <h4 class="project__name">Super Cool Project</h4>
-            <p class="project__description">Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit, sed consequuntur.</p>
-          </div>
-
-          <div class="project">
-            <h4 class="project__name">Less Cool Project</h4>
-            <p class="project__description">Ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</p>
-          </div>
-
-          <div class="project">
-            <h4 class="project__name">Impossible App</h4>
-            <p class="project__description">Libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.</p>
-          </div>
-
-          <div class="project">
-            <h4 class="project__name">Easy Peasy App</h4>
-            <p class="project__description">Saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum.</p>
-          </div>
-
-          <div class="project">
-            <h4 class="project__name">Ad Blocker</h4>
-            <p class="project__description">Sit amet, consectetur, adipisci velit, sed quia t et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum.</p>
-          </div>
-
-          <div class="project">
-            <h4 class="project__name">Money Maker</h4>
-            <p class="project__description">incidunt ut labore et dolore magnam aliquam quaerat voluptatem esse quam nihil molestiae</p>
-          </div>
-        </div>
-
-        <!-- ANNOUNCEMENTS - TRENDING -->
-        <div class="update-panels">
-          <div class="announcements">
-            <h4 class="section-title">Announcements</h4>
-          </div>
-          <div class="trending">
-            <h4 class="section-title">Trending</h4>
-          </div>
-        </div>
-      </div>
+      <div class="main-content">MAIN CONTENT</div>
     </div>
   </body>
 </html>
-
-<!-- 
-<div class="main-content">
-        <h3 class="projects">Your Projects</h3>
-
-        <div class="project project-first">
-          <h4 class="project-first__name">Super Cool Project</h4>
-          <p class="project-first__description">Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit, sed consequuntur.</p>
-        </div>
-
-        <div class="project project-second">
-          <h4 class="project-second__name">Less Cool Project</h4>
-          <p class="project-second__description">Ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</p>
-        </div>
-
-        <div class="project project-third">
-          <h4 class="project__name">Impossible App</h4>
-          <p class="project__description">Libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.</p>
-        </div>
-
-        <div class="project project-fourth">
-          <h4 class="project__name">Easy Peasy App</h4>
-          <p class="project__description">Saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum.</p>
-        </div>
-
-        <div class="project project-fifth">
-          <h4 class="project__name">Ad Blocker</h4>
-          <p class="project__description">Sit amet, consectetur, adipisci velit, sed quia t et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum.</p>
-        </div>
-
-        <div class="project project-sixth">
-          <h4 class="project__name">Money Maker</h4>
-          <p class="project__description">incidunt ut labore et dolore magnam aliquam quaerat voluptatem esse quam nihil molestiae</p>
-        </div>
-
-        <h3 class="announcements">Announcements</h3>
-      </div>
--->
-
-<!-- 
-Nulla finibus orci nec nunc placerat suscipit id vitae risus. Quisque lacinia sapien dui, quis fermentum enim interdum sed. Proin tincidunt eleifend rhoncus. Cras rutrum augue eu eleifend dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum elementum tempus iaculis.
-Fusce fermentum nisi eu viverra cursus. Nam vel urna ante. Morbi placerat magna dolor, quis volutpat dui dignissim vel. Vivamus varius aliquam dictum. Morbi dapibus luctus libero et pretium. Pellentesque at pretium mauris. Curabitur placerat enim mauris, id convallis quam faucibus dignissim. Aenean in mauris faucibus, bibendum diam a, semper neque. Integer volutpat massa in elementum aliquet. Quisque quis mollis orci, sit amet semper magna. Sed eros velit, sagittis sed dapibus eu, egestas vel massa. Aliquam ultricies, magna ac efficitur vulputate, purus ante posuere neque, eu rutrum leo justo non erat.
-Proin sed feugiat dolor, sed ultricies tortor. Vivamus semper iaculis imperdiet. Nam in accumsan felis, non bibendum metus. Cras est odio, tristique ac arcu et, lobortis auctor odio. Proin varius odio in augue blandit, vitae facilisis lorem elementum. Aenean pulvinar vel orci nec posuere. Vivamus id nibh ut eros consectetur sodales.
-Vestibulum facilisis, libero id ullamcorper mattis, sem tellus maximus ex, eget dignissim eros arcu sed erat. Nunc sit amet posuere metus, in venenatis velit. Curabitur sed turpis mattis, aliquam nibh eget, semper justo. Aliquam ac tortor et dui tincidunt dictum quis a dui. In non ante a tortor sagittis finibus eget eget nibh. Aenean a arcu id sapien ornare suscipit a eget nulla. Aliquam congue arcu quis ullamcorper scelerisque. Mauris porta eros id nisl interdum, in pharetra mi interdum. Mauris sapien urna, dignissim vel neque ut, rhoncus varius ex. Aliquam sed eros at mauris gravida commodo. 
-Nulla facilisi. Ut volutpat leo non lectus condimentum laoreet. Vivamus facilisis ac erat a interdum. Fusce iaculis pellentesque blandit.
--->
