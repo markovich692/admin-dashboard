@@ -37,6 +37,11 @@ body {
   background-color: var(--debug-1);
   grid-column: 2/3;
   grid-row: 1/2;
+
+  /* GRID */
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .search-bar {
