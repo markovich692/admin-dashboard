@@ -34,7 +34,7 @@ body {
 
 /* HEADER */
 .topbar {
-  background-color: var(--debug-2);
+  background-color: var(--debug-1);
   grid-column: 2/3;
   grid-row: 1/2;
   padding: 18px 36px;
@@ -46,7 +46,6 @@ body {
 
 /* Search-bar */
 .search-bar {
-  /* background-color: var(--debug-2); */
   display: grid;
   grid-template-columns: auto minmax(200px, 400px);
   justify-content: start;
@@ -54,7 +53,6 @@ body {
   gap: 10px;
 }
 .search-bar__icon {
-  /* background-color: var(--debug-3); */
   grid-column: 1/2;
 }
 
@@ -64,7 +62,6 @@ body {
 
 /* Header notifications */
 .user-notification {
-  background-color: var(--debug-1);
   padding-left: 20px;
   display: grid;
   grid-auto-flow: column;
@@ -79,6 +76,27 @@ body {
 }
 
 .user-notification__username {
+}
+
+/* User welcome */
+.user-welcome {
+  background-color: var(--debug-2);
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.user-welcome__avatar {
+}
+
+.user-welcome__texts {
+  background-color: var(--debug-5);
+}
+.user-welcome__hello {
+}
+.user-welcome__username {
 }
 
 /* Header actions */
