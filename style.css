@@ -1,3 +1,12 @@
+:root {
+  --debug-1: #ffadad;
+  --debug-2: #ffd6a5;
+  --debug-3: #fdffb6;
+  --debug-4: #caffbf;
+  --debug-5: #a0c4ff;
+  --debug-6: #bdb2ff;
+}
+
 *,
 *::after,
 *::before {
