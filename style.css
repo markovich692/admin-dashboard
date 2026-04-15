@@ -24,3 +24,25 @@ body {
   font-size: 12px;
   line-height: 1.6;
 }
+
+/* CONTAINER  */
+.container {
+  display: grid;
+  grid-template-columns: 250px 1000px;
+  grid-template-rows: 170px 700px;
+}
+
+/* HEADER */
+.topbar {
+  background-color: var(--debug-1);
+}
+
+/* SIDEBAR */
+.sidebar {
+  background-color: var(--debug-2);
+}
+
+/* MAIN CONTENT */
+.main-content {
+  background-color: var(--debug-3);
+}
