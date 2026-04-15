@@ -34,12 +34,10 @@ body {
 
 /* HEADER */
 .topbar {
-  background-color: var(--debug-1);
+  background-color: var(--debug-2);
   grid-column: 2/3;
   grid-row: 1/2;
   padding: 18px 36px;
-
-  /* ----------------------------------------- */
 
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -47,7 +45,7 @@ body {
 
 /* Search-bar */
 .search-bar {
-  background-color: var(--debug-2);
+  /* background-color: var(--debug-2); */
   display: grid;
   grid-template-columns: auto minmax(200px, 400px);
   justify-content: start;
@@ -55,7 +53,7 @@ body {
   gap: 10px;
 }
 .search-bar__icon {
-  background-color: var(--debug-3);
+  /* background-color: var(--debug-3); */
   grid-column: 1/2;
 }
 
@@ -65,6 +63,12 @@ body {
 
 /* Header notifications */
 .user-notification {
+  background-color: var(--debug-1);
+  padding-left: 20px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: center;
+  align-items: center;
 }
 
 .user-notification__notification-icon {
@@ -77,7 +81,6 @@ body {
 }
 
 /* Header actions */
-
 .header-actions {
 }
 
