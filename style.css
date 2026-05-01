@@ -28,7 +28,7 @@ body {
 /* CONTAINER  */
 .container {
   display: grid;
-  grid-template-columns: 200px minmax(800px, 1000px);
+  grid-template-columns: 200px minmax(800px, 850px);
   grid-template-rows: auto 1fr;
 }
 
@@ -127,7 +127,7 @@ body {
   /* GRID */
   display: grid;
   grid-template-columns: 40px 1fr;
-  grid-template-rows: 1fr 20px repeat(6, 1fr) 20px repeat(3, 1fr);
+  grid-template-rows: auto 20px repeat(6, auto) 20px repeat(3, auto);
   justify-content: center;
   align-content: start;
 }
@@ -240,23 +240,92 @@ body {
 
 /* MAIN CONTENT */
 .dashboard {
-  background-color: var(--debug-2);
+  background-color: var(--debug-1);
   grid-column: 2/3;
   grid-row: 2/3;
+  padding: 15px 10px 35px 8px;
 
   /* GRID */
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-auto-flow: column;
+  grid-template-columns: 3fr 1fr;
+  gap: 12px;
 }
 
 .dashboard__projects {
-  grid-column: 1;
+  background-color: var(--debug-2);
+
+  /* GRID */
+  display: grid;
+  gap: 10px;
+}
+
+.dashboard__section-title {
+  background-color: var(--debug-3);
+}
+
+.dashboard__projects-list {
+  background-color: var(--debug-4);
+}
+
+.dashboard__project-card {
+}
+
+.dashboard__project-accent {
+}
+
+.dashboard__project-title {
+}
+
+.dashboard__project-description {
+}
+
+/* SIDE PANEL */
+.dashboard__side-panel {
+  /* background-color: var(--debug-5); */
+}
+
+/* 
+.dashboard {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 15px 10px 40px 8px;
+
+  
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+
+.dashboard__projects {
+ 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto repeat(3, 1fr);
+  gap: 15px;
+}
+
+.dashboard__section-title {
+  grid-column: 1/3;
+}
+
+.dashboard__project {
   background-color: var(--debug-1);
 }
 
+.dashboard__project-title {
+}
+
+.dashboard__project-description {
+}
+
+.project-gutter {
+}
+
+
 .dashboard__side-panel {
-  grid-column: 2;
   background-color: var(--debug-3);
+  grid-column: 2;
 }
 
 .dashboard__announcements {
@@ -264,3 +333,4 @@ body {
 
 .dashboard__trending {
 }
+*/
