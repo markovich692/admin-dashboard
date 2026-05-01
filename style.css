@@ -34,7 +34,6 @@ body {
 
 /* HEADER */
 .topbar {
-  /* background-color: var(--debug-1); */
   grid-column: 2/3;
   grid-row: 1/2;
   padding: 18px 36px;
@@ -82,7 +81,6 @@ body {
 
 /* User welcome */
 .user-welcome {
-  /* background-color: var(--debug-2); */
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: auto 1fr;
@@ -94,7 +92,6 @@ body {
 }
 
 .user-welcome__texts {
-  /* background-color: var(--debug-5); */
 }
 .user-welcome__hello {
 }
@@ -240,60 +237,60 @@ body {
 
 /* MAIN CONTENT */
 .dashboard {
-  background-color: var(--debug-1);
   grid-column: 2/3;
   grid-row: 2/3;
   padding: 15px 10px 35px 8px;
 
   /* GRID */
   display: grid;
-  grid-auto-flow: column;
   grid-template-columns: 3fr 1fr;
   gap: 12px;
 }
 
 .dashboard__projects {
-  /* background-color: var(--debug-2); */
-
   /* GRID */
   display: grid;
   gap: 10px;
 }
 
 .dashboard__section-title {
-  /* background-color: var(--debug-3); */
 }
 
 .dashboard__projects-list {
-  /* background-color: var(--debug-4);*/
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
 
 .dashboard__project-card {
-  background-color: var(--debug-4);
-  /* padding: 8px; */
+  background-color: var(--debug-1);
   border-radius: 8px;
+
+  /* GRID */
+  display: grid;
+  grid-template-columns: 8px 1fr;
+  gap: 10px;
+  overflow: hidden;
 }
 
 .dashboard__project-accent {
-  background-color: var(--debug-1);
+  background-color: var(--debug-2);
+  grid-row: 1/3;
 }
 
 .dashboard__project-content {
-  background-color: lightblue;
+  padding: 12px;
 }
 
 .dashboard__project-title {
-  background-color: var(--debug-2);
 }
 
 .dashboard__project-description {
-  background-color: var(--debug-3);
 }
 
 .dashboard__project-icons {
+  padding: 12px;
+  justify-self: end;
 }
 
 .dashboard__project-icon {
@@ -303,53 +300,3 @@ body {
 .dashboard__side-panel {
   /* background-color: var(--debug-5); */
 }
-
-/* 
-.dashboard {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  padding: 15px 10px 40px 8px;
-
-  
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 20px;
-}
-
-.dashboard__projects {
- 
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto repeat(3, 1fr);
-  gap: 15px;
-}
-
-.dashboard__section-title {
-  grid-column: 1/3;
-}
-
-.dashboard__project {
-  background-color: var(--debug-1);
-}
-
-.dashboard__project-title {
-}
-
-.dashboard__project-description {
-}
-
-.project-gutter {
-}
-
-
-.dashboard__side-panel {
-  background-color: var(--debug-3);
-  grid-column: 2;
-}
-
-.dashboard__announcements {
-}
-
-.dashboard__trending {
-}
-*/
